@@ -30,9 +30,15 @@ const Card = () => {
 
         <div className="flex gap-4 my-6">
           <a href="https://www.instagram.com/yomarcelll/" target="_blank">
-            <FaInstagram size={20} className="text-neutral-400 hover:text-purple-600" />
+            <FaInstagram
+              size={20}
+              className="text-neutral-400 hover:text-purple-600"
+            />
           </a>
-          <a href="https://www.linkedin.com/in/marcel-silva-251851302/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/marcel-silva-251851302/"
+            target="_blank"
+          >
             <FaLinkedinIn
               size={20}
               className="text-neutral-400 hover:text-blue-400"
@@ -44,7 +50,7 @@ const Card = () => {
         </div>
 
         <a
-          href="#"
+          href="/portfolio/contatos"
           className="w-full block bg-white text-black text-center text-sm rounded-md py-2 hover:bg-neutral-200"
         >
           Entre em contato
