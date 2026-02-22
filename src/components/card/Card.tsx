@@ -51,7 +51,7 @@ const Card = () => {
         </div>
 
         <Link
-          to="/portfolio/contatos"
+          to="/contatos"
           className="w-full block bg-white text-black text-center text-sm rounded-md py-2 hover:bg-neutral-200"
         >
           Entre em contato
