@@ -12,7 +12,6 @@ const NavLinksPatternMobile = ({ text, link }: NavLink) => {
         <li className="text-2xl">
           <NavLink
             to={link}
-            onClick={() => setOpen(false)}
             className="text-blue-400 transition-all duration-300 hover:text-blue-300"
           >
             {text}
