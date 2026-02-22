@@ -2,6 +2,7 @@ import perfil from "../../assets/fotos/profile.png";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Card = () => {
   return (
@@ -49,12 +50,12 @@ const Card = () => {
           </a>
         </div>
 
-        <a
-          href="/portfolio/contatos"
+        <Link
+          to="/portfolio/contatos"
           className="w-full block bg-white text-black text-center text-sm rounded-md py-2 hover:bg-neutral-200"
         >
           Entre em contato
-        </a>
+        </Link>
       </section>
     </>
   );
